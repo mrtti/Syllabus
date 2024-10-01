@@ -4,5 +4,8 @@
 
 # Actualizaciones Tarea
 
-> Fecha
-1.
+> 1 de octubre
+1. Se hace un cambio en el enunciado, se agrega el formulario de entregas atrasadas.
+2. Se hace un cambio en el enunciado, se explica que la forma de evaluar los tests es ternaria.
+
+
