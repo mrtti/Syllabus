@@ -287,3 +287,66 @@ class TestPizzasConIngredienteCorrectitud(unittest.TestCase):
         ]
 
         self.assertCountEqual(lista_estudiante, lista_esperada)
+
+    @timeout(N_SECOND)
+    def test_6(self):
+        """
+        Verifica que el test funcione si es que el existen ingredientes con nombre parecido.
+        """
+
+        Pizza = namedtuple("Pizza", ["nombre", "ingredientes", "precio"])
+
+        lista_entregada = [
+            Pizza(
+                nombre="Margarita", ingredientes="tomate;queso;albahaca", precio=5000
+            ),
+            Pizza(
+                nombre="Napolitana", ingredientes="salsa de tomate;queso;jamón", precio=6000
+            ),
+            Pizza(
+                nombre="Hawaiana", ingredientes="tomate;queso;jamón;piña", precio=7000
+            ),
+            Pizza(
+                nombre="Pepperoni", ingredientes="salsa de tomate;queso;pepperoni", precio=8000
+            ),
+            Pizza(
+                nombre="Vegetariana",
+                ingredientes="tomate;queso;champiñones;pimentón;aceitunas",
+                precio=9000,
+            ),
+            Pizza(
+                nombre="Pollo BBQ",
+                ingredientes="tomate;queso;pollo;cebolla;bbq",
+                precio=10000,
+            ),
+        ]
+
+        generador_entregado = (asociacion for asociacion in lista_entregada)
+
+        resultado_estudiante = pizzas_con_ingrediente(generador_entregado, "tomate")
+
+        self.assertIsInstance(resultado_estudiante, (Iterable))
+
+        lista_estudiante = [pedido for pedido in resultado_estudiante]
+
+        lista_esperada = [
+            Pizza(
+                nombre="Margarita", ingredientes="tomate;queso;albahaca", precio=5000
+            ),
+            Pizza(
+                nombre="Hawaiana", ingredientes="tomate;queso;jamón;piña", precio=7000
+            ),
+            Pizza(
+                nombre="Vegetariana",
+                ingredientes="tomate;queso;champiñones;pimentón;aceitunas",
+                precio=9000,
+            ),
+            Pizza(
+                nombre="Pollo BBQ",
+                ingredientes="tomate;queso;pollo;cebolla;bbq",
+                precio=10000,
+            ),
+        ]
+
+        self.assertCountEqual(lista_estudiante, lista_esperada) 
+

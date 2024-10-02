@@ -528,7 +528,7 @@ class TestPromedioVentasConDescuentoDeUnPaisCorrectitud(unittest.TestCase):
             Local(
                 id_local=1,
                 direccion="85024 Valerie Tunnel Apt. 363",
-                pais="Uzbekistan",
+                pais="Chileee",
                 ciudad="Hillhaven",
                 cantidad_trabajadores=3,
             ),

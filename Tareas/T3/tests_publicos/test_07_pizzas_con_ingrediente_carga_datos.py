@@ -25,9 +25,9 @@ class TestPizzaConIngredianteCargaDatos(unittest.TestCase):
         carpeta = "s"
 
         path = os.path.join("data", carpeta, "pizzas.csv")
-        g_a = cargar_pizzas(path)
+        g_p = cargar_pizzas(path)
 
-        resultado_estudiante = pizzas_con_ingrediente(g_a, "tocino")
+        resultado_estudiante = pizzas_con_ingrediente(g_p, "tocino")
 
         resultado_esperado = PIZZAS_CON_INGREDIENTE_S_1
 
@@ -43,9 +43,9 @@ class TestPizzaConIngredianteCargaDatos(unittest.TestCase):
         carpeta = "s"
 
         path = os.path.join("data", carpeta, "pizzas.csv")
-        g_a = cargar_pizzas(path)
+        g_p = cargar_pizzas(path)
 
-        resultado_estudiante = pizzas_con_ingrediente(g_a, "pepperoni")
+        resultado_estudiante = pizzas_con_ingrediente(g_p, "pepperoni")
 
         resultado_esperado = PIZZAS_CON_INGREDIENTE_S_2
 
@@ -61,9 +61,9 @@ class TestPizzaConIngredianteCargaDatos(unittest.TestCase):
         carpeta = "m"
 
         path = os.path.join("data", carpeta, "pizzas.csv")
-        g_a = cargar_pizzas(path)
+        g_p = cargar_pizzas(path)
 
-        resultado_estudiante = pizzas_con_ingrediente(g_a, "aceitunas negras")
+        resultado_estudiante = pizzas_con_ingrediente(g_p, "aceitunas negras")
 
         resultado_esperado = PIZZAS_CON_INGREDIENTE_M_1
 
@@ -79,9 +79,9 @@ class TestPizzaConIngredianteCargaDatos(unittest.TestCase):
         carpeta = "m"
 
         path = os.path.join("data", carpeta, "pizzas.csv")
-        g_a = cargar_pizzas(path)
+        g_p = cargar_pizzas(path)
 
-        resultado_estudiante = pizzas_con_ingrediente(g_a, "Salsa de Queso")
+        resultado_estudiante = pizzas_con_ingrediente(g_p, "Salsa de Queso")
 
         resultado_esperado = PIZZAS_CON_INGREDIENTE_M_2
 
@@ -97,9 +97,9 @@ class TestPizzaConIngredianteCargaDatos(unittest.TestCase):
         carpeta = "m"
 
         path = os.path.join("data", carpeta, "pizzas.csv")
-        g_a = cargar_pizzas(path)
+        g_p = cargar_pizzas(path)
 
-        resultado_estudiante = pizzas_con_ingrediente(g_a, "Palta")
+        resultado_estudiante = pizzas_con_ingrediente(g_p, "Palta")
 
         resultado_esperado = PIZZAS_CON_INGREDIENTE_M_3
 
@@ -115,9 +115,9 @@ class TestPizzaConIngredianteCargaDatos(unittest.TestCase):
         carpeta = "l"
 
         path = os.path.join("data", carpeta, "pizzas.csv")
-        g_a = cargar_pizzas(path)
+        g_p = cargar_pizzas(path)
 
-        resultado_estudiante = pizzas_con_ingrediente(g_a, "champiñones")
+        resultado_estudiante = pizzas_con_ingrediente(g_p, "champiñones")
 
         resultado_esperado = PIZZAS_CON_INGREDIENTE_L_1
 
@@ -133,9 +133,9 @@ class TestPizzaConIngredianteCargaDatos(unittest.TestCase):
         carpeta = "l"
 
         path = os.path.join("data", carpeta, "pizzas.csv")
-        g_a = cargar_pizzas(path)
+        g_p = cargar_pizzas(path)
 
-        resultado_estudiante = pizzas_con_ingrediente(g_a, "salsa de queso")
+        resultado_estudiante = pizzas_con_ingrediente(g_p, "salsa de queso")
 
         resultado_esperado = PIZZAS_CON_INGREDIENTE_L_2
 
@@ -151,9 +151,9 @@ class TestPizzaConIngredianteCargaDatos(unittest.TestCase):
         carpeta = "l"
 
         path = os.path.join("data", carpeta, "pizzas.csv")
-        g_a = cargar_pizzas(path)
+        g_p = cargar_pizzas(path)
 
-        resultado_estudiante = pizzas_con_ingrediente(g_a, "Cerebro con Queso")
+        resultado_estudiante = pizzas_con_ingrediente(g_p, "Cerebro con Queso")
 
         resultado_esperado = PIZZAS_CON_INGREDIENTE_L_3
 
@@ -169,9 +169,9 @@ class TestPizzaConIngredianteCargaDatos(unittest.TestCase):
         carpeta = "l"
 
         path = os.path.join("data", carpeta, "pizzas.csv")
-        g_a = cargar_pizzas(path)
+        g_p = cargar_pizzas(path)
 
-        resultado_estudiante = pizzas_con_ingrediente(g_a, "Larvas Crujientes")
+        resultado_estudiante = pizzas_con_ingrediente(g_p, "Larvas Crujientes")
 
         resultado_esperado = PIZZAS_CON_INGREDIENTE_L_4
 
@@ -187,9 +187,9 @@ class TestPizzaConIngredianteCargaDatos(unittest.TestCase):
         carpeta = "xl"
 
         path = os.path.join("data", carpeta, "pizzas.csv")
-        g_a = cargar_pizzas(path)
+        g_p = cargar_pizzas(path)
 
-        resultado_estudiante = pizzas_con_ingrediente(g_a, "Cerebro con Queso")
+        resultado_estudiante = pizzas_con_ingrediente(g_p, "Cerebro con Queso")
 
         resultado_esperado = PIZZAS_CON_INGREDIENTE_XL_1
 

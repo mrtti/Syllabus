@@ -60,7 +60,7 @@ class TestConsultaAnidada(unittest.TestCase):
             "generador_pizzas": {
                 "funcion": "pizzas_con_ingrediente",
                 "generador_pizzas": {"funcion": "cargar_pizzas", "path": path_pizzas},
-                "ingrediente": "tomate",
+                "ingrediente": "salsa de tomate",
             },
             "dinero": 9200,
             "tamano": "S",

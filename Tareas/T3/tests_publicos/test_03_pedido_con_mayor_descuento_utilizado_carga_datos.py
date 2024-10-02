@@ -36,6 +36,8 @@ class TestPedidoConMayorDescuentoUtilizadoCargaDatos(unittest.TestCase):
 
         self.assertIsInstance(resultado_estudiante, (Iterable))
 
+        resultado_estudiante = list(resultado_estudiante)
+
         self.assertTrue(
             all(elem in resultado_estudiante for elem in resultado_esperado)
         )
@@ -62,6 +64,8 @@ class TestPedidoConMayorDescuentoUtilizadoCargaDatos(unittest.TestCase):
         )
 
         self.assertIsInstance(resultado_estudiante, (Iterable))
+
+        resultado_estudiante = list(resultado_estudiante)
 
         self.assertTrue(
             all(elem in resultado_estudiante for elem in resultado_esperado)
@@ -90,6 +94,8 @@ class TestPedidoConMayorDescuentoUtilizadoCargaDatos(unittest.TestCase):
 
         self.assertIsInstance(resultado_estudiante, (Iterable))
 
+        resultado_estudiante = list(resultado_estudiante)
+
         self.assertTrue(
             all(elem in resultado_estudiante for elem in resultado_esperado)
         )
@@ -116,6 +122,8 @@ class TestPedidoConMayorDescuentoUtilizadoCargaDatos(unittest.TestCase):
         )
 
         self.assertIsInstance(resultado_estudiante, (Iterable))
+
+        resultado_estudiante = list(resultado_estudiante)
 
         self.assertTrue(
             all(elem in resultado_estudiante for elem in resultado_esperado)
@@ -144,6 +152,8 @@ class TestPedidoConMayorDescuentoUtilizadoCargaDatos(unittest.TestCase):
 
         self.assertIsInstance(resultado_estudiante, (Iterable))
 
+        resultado_estudiante = list(resultado_estudiante)
+
         self.assertTrue(
             all(elem in resultado_estudiante for elem in resultado_esperado)
         )
@@ -170,6 +180,8 @@ class TestPedidoConMayorDescuentoUtilizadoCargaDatos(unittest.TestCase):
         )
 
         self.assertIsInstance(resultado_estudiante, (Iterable))
+
+        resultado_estudiante = list(resultado_estudiante)
 
         self.assertTrue(
             all(elem in resultado_estudiante for elem in resultado_esperado)
@@ -198,6 +210,8 @@ class TestPedidoConMayorDescuentoUtilizadoCargaDatos(unittest.TestCase):
 
         self.assertIsInstance(resultado_estudiante, (Iterable))
 
+        resultado_estudiante = list(resultado_estudiante)
+
         self.assertTrue(
             all(elem in resultado_estudiante for elem in resultado_esperado)
         )
@@ -224,6 +238,8 @@ class TestPedidoConMayorDescuentoUtilizadoCargaDatos(unittest.TestCase):
         )
 
         self.assertIsInstance(resultado_estudiante, (Iterable))
+
+        resultado_estudiante = list(resultado_estudiante)
 
         self.assertTrue(
             all(elem in resultado_estudiante for elem in resultado_esperado)
@@ -252,6 +268,8 @@ class TestPedidoConMayorDescuentoUtilizadoCargaDatos(unittest.TestCase):
 
         self.assertIsInstance(resultado_estudiante, (Iterable))
 
+        resultado_estudiante = list(resultado_estudiante)
+
         self.assertTrue(
             all(elem in resultado_estudiante for elem in resultado_esperado)
         )
@@ -278,6 +296,8 @@ class TestPedidoConMayorDescuentoUtilizadoCargaDatos(unittest.TestCase):
         )
 
         self.assertIsInstance(resultado_estudiante, (Iterable))
+
+        resultado_estudiante = list(resultado_estudiante)
 
         self.assertTrue(
             all(elem in resultado_estudiante for elem in resultado_esperado)

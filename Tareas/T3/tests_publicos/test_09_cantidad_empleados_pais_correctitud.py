@@ -261,6 +261,13 @@ class TestCantidadEmpleadosPaisCorrectitud(unittest.TestCase):
                 ciudad="Steve",
                 cantidad_trabajadores=2,
             ),
+            Local(
+                id_local=8,
+                direccion="Calle Falsa 123427",
+                pais="Chileeee",
+                ciudad="Steve",
+                cantidad_trabajadores=2,
+            )
         ]
 
         generador_entregado_locales = (asociacion for asociacion in lista_entregada)
